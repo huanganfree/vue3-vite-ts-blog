@@ -1,6 +1,18 @@
 import request from '@/utils/request.js'
 
-function requestLogin(params) {
+interface LoginParams {
+  username: string;
+  password: string;
+}
+
+interface RegisterParams {
+  username: string;
+  password: string;
+  email?: string;
+  phone?: string;
+}
+
+function requestLogin(params: LoginParams) {
   return request({
     url: '/user/login',
     method: 'post',
@@ -8,7 +20,7 @@ function requestLogin(params) {
   })
 }
 
-function requestRegister(params) {
+function requestRegister(params: RegisterParams) {
   return request({
     url: '/user/register',
     method: 'post',
@@ -16,7 +28,7 @@ function requestRegister(params) {
   })
 }
 
-export { 
+export {
   requestLogin,
   requestRegister
 } 

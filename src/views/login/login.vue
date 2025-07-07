@@ -92,7 +92,7 @@
   background-image: linear-gradient(217deg,#6fb9f8,#3daaf85e,#49d3fc1a,#3fd3ff00);
 }
 .login-bg{
-  height: 4.3rem;
+  height: 184px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 120%;
