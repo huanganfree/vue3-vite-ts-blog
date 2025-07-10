@@ -42,7 +42,7 @@
 }
 
 .login-bg {
-  height: 184px;
+  height: 214px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 120%;
